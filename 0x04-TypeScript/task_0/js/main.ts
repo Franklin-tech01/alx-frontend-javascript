@@ -56,7 +56,7 @@ export interface Student {
   /**
    * Displays information about students in a table.
    * @param students The list of students to display.
-   * @author Bezaleel Olakunori <https://github.com/B3zaleel>
+   * @author Franklin Mike <https://github.com/Franklin-tech01>
    */
   export const displayStudents = (students: Array<Student>): void => {
     const table = document.createElement('table');
